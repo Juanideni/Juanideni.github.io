@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html {
+    font-family: calibri;
+    font-size: large;
+    background-color: #1f1f22;
+    scroll-behavior: smooth;
+    text-align: justify;
+    margin: 1% 2% 1% 2%;
+    padding-bottom: 10%;
+}
+#cabecera {
+    background-color: #fffca3;
+    text-decoration: none;
+    
+}
+.navbar-brand{
+    text-align: left;
+    font-family: calibri;
+    font-size: 50px;
+    padding: 1% 1% 1% 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#navegador ul{
+    list-style-type: none;
+    font-size: 12px;
+    padding: 1% 1% 1% 1%;
+    text-align: right;
+    margin-left: 2%;
+    margin-right: 2%;
+ }
+
+ #navegador li{
+    display: inline;
+    font-size: 12px;
+    text-align: right;
+    margin: 0 10px 0 0;
+ }
+
+ #navegador li a {
+    padding: 12px 17px 12px 17px;
+    border: 1px hidden #ccc;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+ }
+ #navegador li a:hover{
+     
+     background-color: #000000;
+     color: #FFFFFF;
+     transition-duration: 2s;
+     font-size: large;
+ }
+
+/* BODY */
+
+    body{
+        padding: 10px;
+    }
+    .titulo-divisor{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: larger;
+        text-decoration: underline;
+        text-align: center;
+        margin: 10% 2% 5% 2%;
+        border-top: 5px solid black;
+        padding-top: 2%;
+    }    
+
+ #sobre-mi, #preferencias, #fotos, #proyectos {
+     border: solid 2px #000000;
+     text-align: center;
+     margin: 5% 2% 5% 2%;
+     padding: 1% 1% 1% 1%;
+     font-size: 20px;
+     background-color:  #fffca3;
+ }
+
+ #fotos img{
+    width: 100%;
+    height: 100%;
+ }
+ #fotos img:hover{
+     border: solid 5px #fffca3;
+ }
+ #fotos .col-lg-4 {
+     padding: 30px;
+ }
+
+ #form{
+    padding: 10px;
+ }  
+ label{
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+
+ table.table-bordered{
+    border:1px solid black;
+    margin-top:20px;
+  }
+table.table-bordered > thead > tr > th{
+    border:2px solid black;
+}
+table.table-bordered > tbody > tr > td{
+    border:2px solid black;
+}
+ #estudios {
+     text-align: center;
+     font-size: x-large;
+ }
+ .last-a {
+    text-decoration:none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .social {
+    text-decoration: none;
+    text-align: center;
+    background-color:#fffca3;
+    
+  }
+  .logo {
+    padding-top: 20px;
+    text-align: center;
+    height: 10px;
+    width: 10px;
+  }
+  .pie-de-pagina {
+      text-align: center;
+      color: white;
+      padding: 1% 1% 1% 1%;
+      background-color:#262a33 ;
+  }
